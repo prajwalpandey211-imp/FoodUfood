@@ -1,0 +1,78 @@
+.stone-age-bg {
+  min-height: 100vh;
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+  padding: 2rem 0;
+}
+
+.stone-age {
+  font-family: 'Papyrus', 'Comic Sans MS', cursive, sans-serif;
+  background: #f5e6c8cc;
+  border: 6px solid #bfa76f;
+  border-radius: 24px;
+  box-shadow: 0 4px 24px #0003;
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 2rem 2.5rem;
+}
+
+.user-form label {
+  display: block;
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+}
+
+.user-form select,
+.user-form input[type="text"],
+.user-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border-radius: 8px;
+  border: 2px solid #bfa76f;
+  background: #fffbe6;
+  font-size: 1rem;
+}
+
+.user-form button {
+  padding: 0.7rem 2rem;
+  background: #bfa76f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-family: inherit;
+  box-shadow: 0 2px 8px #0002;
+}
+
+.user-form button:hover {
+  background: #a68c5b;
+}
+
+.star-rating {
+  display: flex;
+  gap: 0.3rem;
+  margin-top: 0.5rem;
+}
+
+.star {
+  color: #ccc;
+  transition: color 0.2s;
+}
+
+.star.filled {
+  color: #ffb400;
+}
+
+.timer {
+  font-size: 1.2rem;
+  color: #d2691e;
+  margin-bottom: 1rem;
+}
+
+.thank-you {
+  text-align: center;
+  color: #2e7d32;
+  font-size: 1.3rem;
+}
